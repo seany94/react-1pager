@@ -87,6 +87,73 @@ class Body extends Component {
                 </div>
             </div>
         </div>
+        <div className="application">
+            Application Process
+            <div className="process">
+                <img src={require('../images/application.png')} alt=""/>
+            </div>
+            <div className="process_container">
+                <div className="process1">
+                    <div className="process_title">
+                        Contact Access Education
+                    </div>
+                    <div className="process_desc">
+                        You can contact us over email, over the phone, or visit us in one of our offices.
+                    </div>
+                </div>
+                <div className="process2">
+                    <div className="process_title">
+                        Speak to a Consultant
+                    </div>
+                    <div className="process_desc">
+                        You will be assigned your own education consultant and can talk to them about your situation and what you are looking for.
+                    </div>
+                </div>
+                <div className="process3">
+                    <div className="process_title">
+                        Consultant suggests University
+                    </div>
+                    <div className="process_desc">
+                        After a conversation, your consultant will consider your situation and suggest the best option for you.
+                    </div>
+                </div>
+                <div className="process4">
+                    <div className="process_title">
+                        Access Education submits application
+                    </div>
+                    <div className="process_desc">
+                        Once you have sent us all your documents, we will make an application for you!
+                    </div>
+                </div>
+                <div className="process5">
+                    <div className="process_title">
+                        Receive Offer
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="testimonial_container">
+            <div className="testimonial">
+                <div className="testimonial_header">Testimonials</div>
+                <div className="testimonial_content">
+                    <div className="arrow_container1">
+                        <img src={require('../images/vector5.png')} alt=""/>
+                    </div>
+                    <img src={require('../images/group.png')} alt=""/>
+                    <div className="testimonial_content_container">
+                        <div className="testimonial_title">
+                            Sharon Lin - UC Berkeley
+                        </div>
+                        <div className="testimonial_desc">
+                            Nama saya Sharon Lin, lulusan dari Ipeka International tahun 2015. Saat lulus SMA rencananya saya mau daftar Community College supaya bisa transfer ke UC Berkeley. Saat mau daftar ke De Anza & Foothill Colllege, saya dibantu Meggy dari Access Education sehingga proses masuk ke Community College dari SMA jadi mudah dan lancar. Meggy sangat helpful dalam menjawab pertanyaan-pertanyaan saya dan juga mempermudahkan proses pendaftaran ke Community College. Setelah belajar 2 tahun di De Anza College, saya berhasil transfer ke Universitas impian saya UC Berkeley.
+                        </div>
+                    </div>
+                    <div className="arrow_container2">
+                        <img src={require('../images/vector4.png')} alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
     );
   }

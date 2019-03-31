@@ -94,10 +94,11 @@ li img{
   -webkit-border-radius: 50%;
 }
 
-.body_title{
+.body_title, .services, .application, .testimonial{
 	font-size: 30px;
 	color: #ED1C24;
 	margin: 30px 150px;
+	width: 1200px;
 }
 
 .body_button_container{
@@ -215,13 +216,6 @@ li img{
 	background: linear-gradient(180deg, rgba(246, 246, 246, 0.64) 0%, rgba(232, 232, 232, 0) 85.99%);
 }
 
-.services{
-	font-size: 30px;
-	color: #ED1C24;
-	margin: 30px 150px;
-	width: 1200px;
-}
-
 .service_container{
 	margin-top: 50px;
 }
@@ -246,4 +240,122 @@ li img{
 	margin: 10px 40px 0 0;
 	font-size: 12px;
 	color: #ED1C24;
+}
+
+.application{
+	margin-top: 100px;
+}
+
+.process{
+	margin: 80px 80px 5px 80px;
+}
+
+.process_container{
+	display: inline;
+}
+
+.process1, .process2, .process3, .process4, .process5{
+	display: inline-block;
+	width: 163px;
+	height: 78px;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 36px;
+}
+
+.process_title{
+	font-size: 18px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.process_desc{
+	font-size: 12px;
+	line-height: 13px;
+	color: #979797;
+	margin-top: 10px;
+}
+
+.testimonial_container{
+	margin-top: 150px;
+	background: linear-gradient(180deg, rgba(246, 246, 246, 0.64) 0%, rgba(232, 232, 232, 0) 85.99%);
+}
+
+.testimonial{
+	padding-top: 50px;
+}
+
+.testimonial_header{
+	padding-bottom: 30px;
+}
+
+.testimonial_content{
+	padding: 100px 0 0 90px;
+	width: 1160px;
+	height: 312.05px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.07);
+	border-radius: 10px;
+}
+
+.testimonial_content_container{
+	display: inline-block;
+	padding: 20px;
+}
+
+.testimonial_title{
+	width: 209px;
+	height: 17.68px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.testimonial_desc{
+	margin-top: 15px;
+	width: 661px;
+	height: 137.3px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.footer_container{
+	background: #ED1C24;
+	width: 1440px;
+	height: 375px;
+	margin-top: 80px;
+}
+
+.footer_content{
+	display: inline;
+}
+
+.footer_content img{
+	padding: 50px 150px;
+}
+
+.footer_text{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 100px;
+	width: 387px;
+	height: 74px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.footer_button{
+	display: inline-block;
+	background: #FFFFFF;
+	border-radius: 5px;
+	margin-top: 80px;
+	width: 300px;
+	height: 50px;
+}
+
+.footer_end{
+	background: #A60F15;
+	width: 1440px;
+	height: 125px;
 }
